@@ -1,0 +1,36 @@
+{
+  "name": "yfin-bot",
+  "version": "1.0.0",
+  "description": "A Yahoo Finance Discord bot using yahoo-finance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clwalls/yFin-Bot.git"
+  },
+  "keywords": [
+    "node",
+    "yahoo",
+    "finance",
+    "yahoo-finance",
+    "yfinance",
+    "discord"
+  ],
+  "author": "Christopher Walls github.com/clwalls",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clwalls/yFin-Bot/issues"
+  },
+  "homepage": "https://github.com/clwalls/yFin-Bot#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "yahoo-finance": "^0.3.7",
+    "yahoo-financial-data": "^1.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
